@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.main-content{
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer {
+  position: absolute;
+  padding-top:75%;
+margin-bottom: 0px;
+
+text-align: center;
+padding-left: 45%;
+}
+.commento{
+  text-align: center;
+flex-flow: column;
+position: absolute;
+padding-top: 600px;
+padding-left: 430px;
+
+
+
+}
+#comm{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-right: 35px;
+}
+button{
+  margin-bottom: 20px;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+  <section class="main-content">
+    <h1>WineArt</h1>
+</section>
+<div>
+<table style="width:600px; text-align: center;">
+ <thead>
+    <tr>
+      <th>Vino</th>
+      <th>Anno</th>
+      <th>Valutazione</th>
+      <th>prezzo</th>
+      <th>Foto</th>
+    </tr>
+ </thead>
+ <tbody>
+    <tr>
+      <td>Nero d'avola</td>
+      <td>2015</td>
+      <td>4.8/5</td>
+      <td>9.9$</td>
+      <td><img src="Marsala.jpg"  height="100"width="100" ></td>
+      <td><a href="*">compra anche su amazon il nostro nero d'avola</a></td>
+         
+    </tr>
+    <tr>
+      <td>Passito di pantelleria</td>
+      <td>2016</td>
+      <td>4.6/5</td>
+        <td>9.9$</td>
+      <td><img src="passito.jpg"  height="100"width="100"></td>
+      <td><a href="*">compra anche su amazon il nostro passito</a></td>
+          
+
+    </tr>
+    <tr>
+      <td>Cerasuolo di vittoria</td>
+      <td>2017</td>
+      <td>4.7/5</td>
+        <td>9.9$</td>
+      <td><img src="Cerasuolo.jpg"  height="100"width="100" ></td>
+      <td><a href="*">compra anche su amazon il nostro cerasuolo</a></td>
+            
+    </tr>
+    <tr>
+      <td>Marsala</td>
+      <td>2018</td>
+      <td>4.8/5</td>
+        <td>9.9$</td>
+      <td><img src="Marsala.jpg" alt="Vino 4"  height="100"width="100"></td>
+      <td><a href="*">compra anche su amazon il nostro marsala</a></td>
+          
+    </tr>
+    <tr>
+      <td>Zibibbo</td>
+      <td>2019</td>
+      <td>4.9/5</td>
+        <td>9.9$</td>
+      <td><img src="passito.jpg" alt="vino 5"  height="100"width="100"></td>
+      <td><a href="*">compra anche su amazon il nostro Zibibbo</a></td>
+    
+    </tr>
+    </tbody>
+</div>
+
+<div class="commento">
+
+    <form id="comment-form">
+ <h3>Aggiungi un commento </h3>
+ <div >
+    <label for="name">Nome</label>
+    <input type="text"  placeholder="Inserisci il tuo nome" >
+ </div>
+ <div id = "comm">
+    <label for="comment">Commento</label>
+    <textarea  rows="10" placeholder="Inserisci il tuo commento" ></textarea>
+ </div>
+ <button type="submit">Invia</button>
+</form>
+</div>
+  
+<footer>
+    <div class="footer">
+        <h3>WineArt</h3>
+        <p id="paragrafo">via delle zanzare 22</p>
+    </div>
+</footer>
+
+
+
+</body>
+<script src="S3-P2js.js"></script>
+</html>
+
+ 
